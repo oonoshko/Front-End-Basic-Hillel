@@ -5,20 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HW_Lesson_3</title>
+    <title>HW_Lesson_5</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-
-        </nav>
-    </header>
     <main>
-        <section>
-
-        </section>
+        <div>
+            <fieldset>
+                <legend><b>Реєстрація на сайті</b></legend>
+                <form action=" https://fom.in.ua/echo" method="post">
+                    <p>
+                        <label>
+                            <span>Вкажіть Ваше Імя:</span>
+                            <input type="text" placeholder="Вкажіть Ваше Імя" name="Name" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Вкажіть Ваше Прізвище:</span>
+                            <input type="text" placeholder="Вкажіть Ваше Прізвище" name="Surname" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Введіть Ваш Email:</span>
+                            <input type="email" placeholder="Введіть Ваш Email" name="Email" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Введіть Ваш телефон:</span>
+                            <input type="tel" placeholder="Введіть Ваш телефон" name="Phone" required />
+                        </label>
+                    </p>
+                    <p>
+                        <span>Стать</span><br>
+                        <label>
+                            <input type="radio" name="Стать" value="Man" />
+                            <span>Чоловіча</span>
+                        </label><br>
+                        <label>
+                            <input type="radio" name="Стать" value="Women" />
+                            <span>Жіноча</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Дата народження:</span>
+                            <input type="date" name="Date of birth" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Вік:</span>
+                            <input type="number" min="10" max="70" name="Age" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Введіть Ваш пароль</span>
+                            <input type="password" placeholder="Введіть Ваш пароль" name="Password" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Підтвердіть Ваш пароль</span>
+                            <input type="password" placeholder="Підтвердіть Ваш парол" name="Password again" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="Agreed" required />
+                            <span>Я надаю згоду на обробку моїх персональних даних</span>
+                        </label>
+                    </p>
+                    <button type="submit">Продовжити</button>
+                    <a href="second_page.html">У мене вже є обліковий запис</a>
+                </form>
+            </fieldset>
+        </div>
     </main>
     <footer>
 
