@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>Підібрати авто</h2>
+            <fieldset>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <p>
+                        <label><b>Тип кузова:</b><br>
+                            <select name="Type of body" id="Body">
+                                <option value="0" selected disabled>Виберіть тип кузову</option>
+                                <option value="sedan">Седан</option>
+                                <option value="hatchback">Хетчбек</option>
+                                <option value="SUV">Позашляховик/Кросовер</option>
+                                <option value="miniven">Мінівен</option>
+                                <option value="yniversal">Універсал</option>
+                                <option value="coup">Купе</option>
+                                <option value="pick-Up">Пікап</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label><b>Марка автомобіля:</b><br>
+                            <select name="Brand of car" id="Brand">
+                                <option value="0" selected disabled>Виберіть марку автомобіля</option>
+                                <option value="audi">Audi</option>
+                                <option value="ford">Ford</option>
+                                <option value="volvo">Volvo</option>
+                                <option value="LR">Land Rover</option>
+                                <option value="jaguar">Jaguar</option>
+                                <option value="porche">Porche</option>
+                                <option value="MG">Morris Garage</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label><b>Країна виробник:</b><br>
+                            <select name="Country of produce" id="Country">
+                                <option value="0" selected disabled>Виберіть країну виробництва</option>
+                                <option value="Germany">Germany</option>
+                                <option value="America">America</option>
+                                <option value="India">India</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Great Britan">Great Britan</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label><b>Ціна:</b><br>
+                            <input type="number" min="1" placeholder="від" name="Price from">
+                        </label>
+                        <label>
+                            <input type="number" min="1" placeholder="до" name="Price till">
+                        </label>
+                    </p>
+                    <p>
+                        <label><b>Рік випуску:</b><br>
+                            <input type="number" placeholder="від" name="Year from">
+                        </label>
+                        <label>
+                            <input type="number" placeholder="до" name="Year till">
+                        </label>
+                    </p>
+                    <p>
+                        <span><b>Стан автомобіля:</b></span><br>
+                        <label>
+                            <input type="checkbox" name="Бита">
+                            <span>Бита</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Була в ДТП">
+                            <span>Була в ДТП</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="В кредиті">
+                            <span>В кредиті</span>
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="Розмитнена">
+                            <span>Розмитнена</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Не розмитнена">
+                            <span>Не розмитнена</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Пригнана">
+                            <span>Пригнана</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label><b>Тип палива:</b><br>
+                            <select name="Type of fuil" id="Fuil">
+                                <option value="0" selected disabled>Виберіть паливо</option>
+                                <option value="Disel">Дизель</option>
+                                <option value="Petrol">Бензин</option>
+                                <option value="Gas/Petrol">Газ/Бензин</option>
+                                <option value="Electro">Електро</option>
+                                <option value="Hybrid">Гібрид</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label><b>Тип КПП:</b><br>
+                            <select name="Type of Gear" id="Gear">
+                                <option value="0" selected disabled>Виберіть вид КПП</option>
+                                <option value="Manual">Ручна</option>
+                                <option value="Auto">Автоматична</option>
+                                <option value="Variator">Варіатор</option>
+                                <option value="Robot">Робот</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span><b>Колір автомобіля:</b></span>
+                            <input type="color" name="Колір">
+                        </label>
+                    </p>
+                    <p>
+                        <span><b>Комфорт:</b></span><br>
+                        <label>
+                            <input type="checkbox" name="Люк">
+                            <span>Люк</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Шкіляний салон">
+                            <span>Шкіляний салон</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Бортовий комп'ютер">
+                            <span>Бортовий комп'ютер</span>
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="Мультифункціональне рульове колесо">
+                            <span>Мультифункціональне рульове колесо</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Електропривід дзеркал">
+                            <span>Електропривід дзеркал</span>
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="Підкурювач і попільничка">
+                            <span>Підкурювач і попільничка</span>
+                        </label>
+                    </p>
+                    <button>Пошук</button>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+</body>
+
+</html>
