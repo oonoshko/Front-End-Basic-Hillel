@@ -19,7 +19,7 @@
                 <li>По назві класу, наприклад class="назва".</li>
                 <li>По id, наприклад id="унікальне імя".</li>
                 <li>По назві тегу, наприклад section, h2, span тощо.</li>
-                <li>По атрибуту, наприклад a[href="..."].</li>
+                <li>По атрибуту, наприклад a[href^="..."].</li>
                 <li>Потомкові або контекстні селектори, наприклад .wraping p.</li>
                 <li>Дочірні, наприклад .wraping>p.</li>
                 <li>Сестринські або сусідні (розташовані на рдному рівні), наприклад h1+p.</li>
@@ -46,6 +46,33 @@
                 <li>a[href*="facebook"] - Вибирає кожний елемент а значення атрибуту href яке містить слово facebook.
                 </li>
             </ol>
+        </section>
+        <section class="container">
+            <div>
+                <h2 id="title">Друга частина домашнього завдання - призначення різних кольорів:</h2>
+                <p class="color-green">* - Вибір всіх елементів.</p>
+                <span>#id - Вибір елементів з id="унікальне імя".</span>
+                <p>
+                    <label>
+                        <span> Вкажіть Імя</span>
+                        <input type="text" placeholder="Вкажіть Імя">
+                    </label>
+                </p>
+                <a href="https://www.facebook.com/oleg.onoshko.7/" target="_blank" rel="nofollowing noopening">Олег
+                    Оношко</a>
+                <a href="https://web.telegram.org/z/#-1566901727/" target="_blank" rel="nofollowing noopening">Front End
+                    Basic</a>
+                <ol class="list">
+                    <li id="class">.class - Вибір всіх елементів з class="назва".</li>
+                    <li class="list important">p - Вибір всіх елементів p.</li>
+                    <li class="list second">div, p - Вибір всіх елементів div та всіх елементів p.</li>
+                    <li>div p - Вибір всіх елементів p в середині елементів div. </li>
+                </ol>
+                <figure>
+                    <img src="./Images/1.jpg" alt="Nature">
+                    <figcaption>Природа</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 </body>
