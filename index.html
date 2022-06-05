@@ -5,24 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HW_Lesson_3</title>
+    <title>HW_Lesson_6</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-
-        </nav>
-    </header>
     <main>
+        <h1>Домашне завдання №6</h1>
         <section>
-
+            <h2>Перша частина домашнього завдання - селектори бувають:</h2>
+            <ol>
+                <li>Універсальні (*).</li>
+                <li>По назві класу, наприклад class="назва".</li>
+                <li>По id, наприклад id="унікальне імя".</li>
+                <li>По назві тегу, наприклад section, h2, span тощо.</li>
+                <li>По атрибуту, наприклад a[href="..."].</li>
+                <li>Потомкові або контекстні селектори, наприклад .wraping p.</li>
+                <li>Дочірні, наприклад .wraping>p.</li>
+                <li>Сестринські або сусідні (розташовані на рдному рівні), наприклад h1+p.</li>
+                <li>Псевдокласів (селектори стану), наприклад a:hover.</li>
+                <li>Псевдоелементів, наприклад p::first-letter.</li>
+                <li>Комбіновані, наприклад елемент р з класом class="назва" або два класи підряд, або id та
+                    class="назва".</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Друга частина домашнього завдання - приклади селекторів:</h2>
+            <ol>
+                <li>* - Вибір всіх елементів.</li>
+                <li>#id - Вибір елементів з id="унікальне імя".</li>
+                <li>.class - Вибір всіх елементів з class="назва".</li>
+                <li>p - Вибір всіх елементів p.</li>
+                <li>div, p - Вибір всіх елементів div та всіх елементів p.</li>
+                <li>div p - Вибір всіх елементів p в середині елементів div. </li>
+                <li>div > p - Вибір всіх елементів p в яких батьківським елементом є div елемент.</li>
+                <li>div + p - Вибір всіх елементів p розташованих одразу після елементу div.</li>
+                <li>input[required] - вибір всіх елементів input з атрибутом required.</li>
+                <li>[required] - вибір всіх елементів з атрибутом required</li>
+                <li>a[href^="http"] - Вибирає кожний елемент а з атрибутом href який починається з http.</li>
+                <li>a[href*="facebook"] - Вибирає кожний елемент а значення атрибуту href яке містить слово facebook.
+                </li>
+            </ol>
         </section>
     </main>
-    <footer>
-
-    </footer>
 </body>
 
 </html>
