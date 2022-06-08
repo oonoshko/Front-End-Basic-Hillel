@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
-.container {
+img {
     width: 100%;
-    max-width: 232px;
-    max-height: 226px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-height: 200px;
+}
+
+.container {
+width: 100%;
+max-width: 364px;
+max-height: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+border: 1px solid rgb(27, 26, 26);
+background: #f7f5f5;
+display: inline-block;
+text-align: center;
 }
