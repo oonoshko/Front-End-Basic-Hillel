@@ -20,12 +20,175 @@ html {
     line-height: 1.7;
     font-style: normal;
 }
-.container {
+
+/* Верхний контейнер */
+.container1 {
     width: 100%;
-    max-width: 232px;
-    max-height: 226px;
+    max-width: 1920px;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    background-color: #EEEFF1;
+}
+
+/* Меню */
+.nav-padding {
+    padding-left: 399px;
+    padding-top: 79px;
+    }
+
+.nav-style {
+    list-style: none;
+    display: flex;
+}
+
+/* Главная */
+.sizeFontColor {
+    width: 84px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #34547A;
+    }
+
+/* Об авторе */
+.size2 {
+    width: 100px;
+    height: 16px;
+}
+
+/* Работы */
+.size3 {
+    width: 74px;
+    height: 16px;
+}
+
+/* Процесс */
+.size4 {
+    width: 86px;
+    height: 16px;
+}
+
+/* Контакты */
+.size5 {
+    width: 99px;
+    height: 16px;
+}
+/* Отступ и цвет */
+.size2, .size3, .size4, .size5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-left: 42px;
+}
+
+/* Заголовок - Дизайн и верстка */
+
+.title1 {
+    width: 541px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin: 162px 980px 60px 399px;
+}
+
+/* Текст - Дизайн и верстка */
+.text1 {
+    width: 540px;
+    height: 62px;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-left: 400px;    
+}
+
+/* Кнопка - Дизайн и верстка */
+#button {
+    width: 225px;
+    height: 65px;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    background: #34547A;
+    margin: 65px 0px 141px 399px;
+   
+}
+
+.buttonSize {
+    width: 143px;
+    height: 26px;
+    border: none;
+    background: #34547A;
+    color: #FFFFFF;
+    margin: 19px 41px 20px 41px;
+}
+
+/* Обо мне */
+.block1 {
+    width: 100%;
+    max-width: 1920px;
+    height: 359px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEFF1;
+    
+}
+
+/* Текст - Обо мне */
+.title2 {
+width: 100%;
+max-width: 430px;
+height: 30px;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+margin: 0px 759px 50px 758px;
+}
+
+.text2 {
+    width: 540px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 0px 690px 100px 690px;
+}
+
+.block2 {
+    width: 1920px;
+    height: 250px;
+    background: #34547A;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image1 {
+    width: 50px;
+    height: 50px;
+    margin-top: 103px;
+    margin-left: 409px;
+   }
+
+.image2 {
+    width: 71px;
+    height: 44px;    
+    margin-left: 20px;
+}
+.image3 {
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
 }
