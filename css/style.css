@@ -20,175 +20,170 @@ html {
     line-height: 1.7;
     font-style: normal;
 }
+.clearfix {
+    display: block;
+    clear: both;
+}
 
 /* Верхний контейнер */
 .container1 {
     width: 100%;
     max-width: 1920px;
-    height: 700px;
+    line-height: 26px;    
     margin-left: auto;
     margin-right: auto;
+    padding-left: 399px;
+    padding-top: 79px;
+    color: #000000;
     background-color: #EEEFF1;
 }
 
 /* Меню */
-.nav-padding {
-    padding-left: 399px;
-    padding-top: 79px;
-    }
-
 .nav-style {
     list-style: none;
-    display: flex;
+    letter-spacing: 0.1em;
+}
+
+.nav-style li {
+float: left;
 }
 
 /* Главная */
-.sizeFontColor {
-    width: 84px;
-    height: 16px;
+.nav-home {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.1em;
-    color: #34547A;
-    }
-
-/* Об авторе */
-.size2 {
-    width: 100px;
-    height: 16px;
+    color: #34547A;    
 }
 
-/* Работы */
-.size3 {
-    width: 74px;
-    height: 16px;
-}
-
-/* Процесс */
-.size4 {
-    width: 86px;
-    height: 16px;
-}
-
-/* Контакты */
-.size5 {
-    width: 99px;
-    height: 16px;
-}
-/* Отступ и цвет */
-.size2, .size3, .size4, .size5 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.1em;
-    color: #000000;
-    margin-left: 42px;
+/* Меню отступ */
+.nav-menu {    
+    margin-left: 42px;    
 }
 
 /* Заголовок - Дизайн и верстка */
+h2 {
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+}
 
-.title1 {
-    width: 541px;
-    height: 45px;
-    font-weight: 500;
+.title1 {   
     font-size: 48px;
     line-height: 79px;
-    color: #000000;
-    margin: 162px 980px 60px 399px;
+    margin-top: 162px;
 }
 
 /* Текст - Дизайн и верстка */
 .text1 {
-    width: 540px;
-    height: 62px;    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    width: 540px;    
     color: #727272;
-    margin-left: 400px;    
+    margin-top: 60px;
 }
 
 /* Кнопка - Дизайн и верстка */
-#button {
-    width: 225px;
-    height: 65px;    
+.button {    
+    background: #34547A;    
+    margin-top: 65px;
+    margin-bottom: 141px;
+    border: none;
+    padding: 19px 41px 20px 41px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
-    background: #34547A;
-    margin: 65px 0px 141px 399px;
-   
-}
-
-.buttonSize {
-    width: 143px;
-    height: 26px;
-    border: none;
-    background: #34547A;
     color: #FFFFFF;
-    margin: 19px 41px 20px 41px;
 }
 
 /* Обо мне */
-.block1 {
+.container2 {
     width: 100%;
     max-width: 1920px;
-    height: 359px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #EEEFF1;
-    
+    background-color: #f6f7f9;        
+}
+
+.block1 {
+    text-align: center;
+}
+
+/* Заголовок - Обо мне */
+.title2 {    
+    padding-top: 112px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Текст - Обо мне */
-.title2 {
-width: 100%;
-max-width: 430px;
-height: 30px;
-font-weight: 500;
-font-size: 32px;
-line-height: 38px;
-text-align: center;
-color: #000000;
-margin: 0px 759px 50px 758px;
-}
-
 .text2 {
     width: 540px;
-    height: 67px;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 26px;
-    text-align: center;
     color: #727272;
-    margin: 0px 690px 100px 690px;
-}
-
-.block2 {
-    width: 1920px;
-    height: 250px;
-    background: #34547A;
+    margin-top: 50px;
+    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.image1 {
-    width: 50px;
-    height: 50px;
-    margin-top: 103px;
-    margin-left: 409px;
-   }
+/* Блок с картинками */
+.block2 {
+    width: 1920px;   
+    background: #34547A;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 409px;      
+}
 
-.image2 {
-    width: 71px;
-    height: 44px;    
+/* Блок 40+и проект + картинка */
+.image {
+    display: inline-block;
+    margin: 100px 45px 100px 0px;    
+}
+
+/* Блок 40+ и проект*/
+.image1 {
+    display: inline-block;    
     margin-left: 20px;
 }
-.image3 {
-    width: 50px;
-    height: 50px;
-    margin-left: 45px;
+/* Текст - 40+ */
+h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/* Текст - проектов */
+h3+p {
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+/* Как я работаю */
+.container3 {
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EEEFF1;
+    text-align: center;
+}
+
+.title3 {    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.text3 {
+    width: 540px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 50px;
+    margin-bottom: 57px;
+    margin-left: auto;
+    margin-right: auto;
 }
