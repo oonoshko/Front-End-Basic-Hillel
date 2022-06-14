@@ -32,6 +32,11 @@ html {
     padding-right: 1rem;
 }
 
+.clearfix {
+    display: block;
+    clear: both;
+}
+
 /* Верхний контейнер */
 .first-section {
     background-color: #EEEFF1;    
