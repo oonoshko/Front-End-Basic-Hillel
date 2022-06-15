@@ -20,12 +20,12 @@ html {
     line-height: 1.7;
     font-style: normal;
     margin-left: auto;
-    margin-right: auto;      
+    margin-right: auto;
 }
 
 .container {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1142px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
@@ -39,20 +39,20 @@ html {
 
 /* Верхний контейнер */
 .first-section {
-    background-color: #EEEFF1;    
+    background-color: #EEEFF1;
+    padding-top: 79px;
+    padding-bottom: 141px;
 }
 
 /* Меню */
-.header {
-    padding-left: 24.9rem;
-    padding-top: 4.9rem;
+.header {    
     display: inline-block;
     margin-bottom: 162px;
 }
 
 .nav-link {
     line-height: 26px;
-    letter-spacing: 0.1em;    
+    letter-spacing: 0.1em;
     color: #000000;
 }
 
@@ -63,19 +63,15 @@ html {
 }
 
 .nav-link + .nav-link {
-    margin-left: 42px;    
+    margin-left: 42px;
 }
 
 /* Заголовок - Дизайн и верстка */
-.design {
-    padding-left: 24.9rem;
-}
-
 h2 {
-font-weight: 500;
-font-size: 32px;
-line-height: 38px;
-color: #000000;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
 }
 
 .title-design {   
@@ -87,8 +83,8 @@ color: #000000;
 /* Текст - Дизайн и верстка */
 .text-design, .text-about, .text-work {
     width: 100%;
-    max-width: 540px;    
-    line-height: 26px;    
+    max-width: 540px;
+    line-height: 26px;
     color: #727272;
 }
 
@@ -96,7 +92,6 @@ color: #000000;
 .button { 
     background-color: #34547A;
     margin-top: 65px;
-    margin-bottom: 141px;
     border: none;
     font: inherit;
     color: #FFFFFF;  
@@ -109,20 +104,20 @@ color: #000000;
 .about {
     padding-top: 112px;
     background-color: #F9F9F9;
-    }
+}
     
 .block-about, .block-work {
+    padding-bottom: 100px;
     text-align: center;  
 }
 
 /* Заголовок - Обо мне */
-.title-about, .title-work {    
+.title-about, .title-work {
     margin-bottom: 50px;
 }
 
 /* Текст - Обо мне */
 .text-about {
-    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -131,14 +126,13 @@ color: #000000;
 .block-image {      
     background-color: #34547A;
     margin-left: auto;
-    margin-right: auto;          
+    margin-right: auto;
+    padding: 100px 0px;
 }
 
 /* Блок 40+и проект + картинка */
 .image-text {
     display: inline-block;
-    margin: 100px 0px;
-    margin-left: 25.56rem;
 }
 
 .image-text + .image-text {
@@ -169,28 +163,20 @@ h3+p {
 .block-work {
     background-color: #EEEFF1;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .text-work {        
-    margin-bottom: 57px;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* Видео */
-iframe {
-    margin-bottom: 100px;
+    margin-bottom: 57px;
 }
 
 /* Футер */
 .footer {    
     background-color: #34547A;
-}
-
-/* Отступи блока */
-.text-footer {
-    padding-top: 3.125rem;
-    margin-left: 25.375rem; 
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .line-height {    
@@ -201,5 +187,4 @@ iframe {
     font-size: 13px;
     line-height: 21px;
     margin-top: 20px;
-    padding-bottom: 50px;
 }
