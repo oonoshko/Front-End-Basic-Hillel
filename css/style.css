@@ -1,0 +1,97 @@
+.menu {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.nav .ulmain, .ullevel1, .ullevel2 {    
+    list-style: none;       
+}
+
+/* Фон для главного меню */
+.nav > .ulmain > .limain {
+    background-color: rgb(80, 76, 76);
+    float: left;
+}
+
+.nav .ulmain::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Текст в главном меню */
+.nav .ulmain .limain a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    min-width: 150px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+/* Позиционирование блока 1-го уровня */
+.nav .lilevel1 {
+    position: relative;
+}
+
+/* Hover для главного меню и всех блоков разных уровней */
+/* Поставить .limain > a:hover - только для гваного меню */
+/* .nav .ulmain .limain a:hover {
+    background-color: #e7e7f1;
+    color: rgb(54, 50, 50);
+    box-shadow: 1px 5px 10px -5px rgb(12, 12, 12);
+    transition: all 0.3s ease;
+} */
+
+/* Скритие блока 1-го уровня */
+.nav .ulmain .ullevel1 {
+    display: none;
+}
+
+/* Меню Продукция */
+/* Даные блока 1-го и 2-го уровней */
+.nav .limain .ullevel1, .ullevel2 {
+    font-size: inherit;
+    min-width: 150px;
+    text-align: left;
+    background-color: rgb(188, 41, 41);
+    display: none;
+}
+
+/* Hover для главного меню после перехода на блок 1-го уровня */
+.limain:hover a {
+    background-color: rgb(188, 41, 41);
+}
+
+/* Позиционирование блока 1-го уровня */
+.ullevel2 {
+    position: absolute;
+}
+/* Для текста в блоке 1-го уровне */
+.nav .limain > .ullevel1 .lilevel1 a {
+    text-transform: none;
+    padding: 5px;
+}
+
+/* Появдение блока 1-го уровня */
+.nav .ulmain .limain:hover .ullevel1 {
+    display: block;
+}
+
+/* Позиционирование 2-го уровня меню */
+.nav .limain > .ullevel1 .lilevel1 .ullevel2 {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
+
+/* Появдение блока 2-го уровня */
+.nav .lilevel1:hover >.ullevel2 {
+    display: block;
+}
+
+/* Hover для блока 1-го уровня после перехода на блок 2-го уровня */
+/* .lilevel1:hover a {
+    background-color: rgb(133, 124, 124);
+} */
