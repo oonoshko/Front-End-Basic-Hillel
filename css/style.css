@@ -35,15 +35,6 @@
     position: relative;
 }
 
-/* Hover для главного меню и всех блоков разных уровней */
-/* Поставить .limain > a:hover - только для гваного меню */
-/* .nav .ulmain .limain a:hover {
-    background-color: #e7e7f1;
-    color: rgb(54, 50, 50);
-    box-shadow: 1px 5px 10px -5px rgb(12, 12, 12);
-    transition: all 0.3s ease;
-} */
-
 /* Скритие блока 1-го уровня */
 .nav .ulmain .ullevel1 {
     display: none;
@@ -89,8 +80,3 @@
 .nav .lilevel1:hover >.ullevel2 {
     display: block;
 }
-
-/* Hover для блока 1-го уровня после перехода на блок 2-го уровня */
-/* .lilevel1:hover a {
-    background-color: rgb(133, 124, 124);
-} */
