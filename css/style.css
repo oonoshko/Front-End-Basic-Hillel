@@ -1,0 +1,311 @@
+@import url(global.css);
+
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}
+.flex-1 {
+    flex: 1;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.min-h-screen {
+    min-height: 100vh;
+}
+
+/*.................... header................. */
+.header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header .nav .text-link:first-child {
+    padding-left: 30px;
+}
+
+.text-link, .link-signup {
+    font-size: 14px;
+    line-height: 20px;
+}
+.icon-categories {
+    padding-right: 12px;
+    padding-left: 49px;
+}
+.icon-blog {
+    padding-left: 41px;
+}
+.icon-reviews {
+    padding-right: 3px;
+    padding-left: 38px;
+}
+.icon-buying {
+    padding-right: 6px;
+    padding-left: 34px;
+}
+.icon-signUp {
+    padding-left: 300px;
+    padding-right: 12px;
+}
+
+/* ........................... */
+.categories {
+    background-color: #E3EBF1;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+.wrapper {
+    gap: 50px;
+}
+.image-categories {
+    padding-left: 50px;
+}
+
+.content-categories {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 50px;   
+}
+.font-green {
+    font-size: 18px;
+    line-height: 25px;
+    color: #10843F;
+    padding-bottom: 8px;
+}
+.title-categories {
+    font-size: 47px;
+    line-height: 52px;
+    margin-bottom: 22px;
+}
+.content-categories .disription {    
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    font: inherit;    
+    color: #FFFFFF;
+    border: none;
+}
+ .btn-green {  
+    padding: 15px;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #17A550;
+    border-radius: 5px;        
+}       
+
+/* ............................... */
+.blog {
+    padding-top: 77px;
+    padding-bottom: 100px;
+}
+.title-blog {
+    margin-bottom: 33px;
+}
+
+.wrapper-blog {
+    gap: 40px;
+}
+
+.card-left {
+    max-width: 555px;
+    justify-content: flex-start;
+}
+.card-left .title-blog {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 13px;
+}
+.text-blog {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.card {
+    gap: 15px;
+}
+.wrapper-blog .card .discription {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.view-blog {
+    line-height: 20px;
+    padding-top: 74px;
+}
+.view-blog img {
+    margin-right: 4px;
+}
+
+/* ....................................... */
+.view {
+    background: rgb(128, 128, 128) url(../images/background.png) no-repeat center/cover;
+    padding-top: 39px;
+    padding-bottom: 41px;
+}
+
+.wrapper-view .icon-view {
+    margin-right: 12px;
+    padding-left: 30px;
+}
+.wrapper-view .discription-view {
+    font-size: 28px;
+    line-height: 32px;   
+}
+
+.wrapper-view .btn-green {
+    line-height: 22px;
+    padding-right: 40px;
+}
+
+/* .............................. */
+.product {
+    padding-top: 97px;
+    padding-bottom: 100px;
+}
+.title-product {
+    margin-bottom: 33px;
+}
+
+.wrapper-product {
+    gap: 40px;    
+}
+.card-left, .card-center, .card-right {
+    background-color: #F7F9FA;
+    border-radius: 10px;
+    position: relative;
+}
+
+.btn-black {
+    font-size: 12px;
+    line-height: 20px;
+    background-color: rgba(29, 47, 56, 0.8);
+    border-radius: 3px;
+    padding: 5px 10px;    
+}
+.card-left .btn-black{
+    position: absolute;
+    top: 15px;
+    left: 15px; 
+}
+.card-center .btn-black {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.card-right .btn-black {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.card-text {
+    padding-left: 25px;
+}
+.title-block {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 13px;
+}
+
+.text-product {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 39px;
+}
+
+.product .view-product {
+    line-height: 20px;
+    margin-top: 40px;
+}
+.product .view-product img {
+    margin-right: 4px;
+}
+
+/* ............................................. */
+.signup {
+    background: rgb(128, 128, 128) url(../images/background2.png) no-repeat center/cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.wrapper-signup {
+    gap: 50px;
+}
+.image-signup {
+    padding-left: 50px;
+}
+
+.card-signup {
+    padding-right: 50px;
+    margin-top: 7.7px;    
+}
+.background {
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.title-newsletter {
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 10px;    
+}
+.card-signup .card-form {
+    margin-top: 31px;
+}
+
+.text-newsletter {
+    font-size: 18px;
+    line-height: 24px;    
+}
+.card-form form {
+    background: #FFFFFF;
+    border: 1px solid #AABCC5;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-bottom: 31px;
+    
+}
+.card-form input {
+    font-size: 12px;
+    line-height: 20px;
+    border: none;
+    color: #536D7A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+}
+.btn-yellow {
+    background: #FFC728;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 15px 21px 15px 19px;
+}
+.privacy-policy {
+    font-size: 12px;
+    line-height: 20px;
+    color: #536D7A;
+    margin-left: 10px;
+}

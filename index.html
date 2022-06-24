@@ -5,23 +5,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./fonts/font.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <title>HW13_Lesson_11</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <main>
-        <section>
-            <h2></h2>
+<body class="flex flex-col min-h-screen">
+    <header class="header">
+        <div class="container">
+            <div class="flex items-center justify-center">
+                <img src="./images/logo.png" class="logo" alt="logo">
+                <nav class="nav flex items-center justify-center">
+                    <a href="#" class="text-link">Pages</a>
+                    <img src="./images/Categories.png" class="icon-categories" alt="Categories">
+                    <a href="#" class="text-link">Categories</a>
+                    <img src="./images/Blog.png" class="icon-blog" alt="Blog">
+                    <a href="#" class="text-link">Blog</a>
+                    <img src="./images/Reviews.png" class="icon-reviews" alt="Reviews">
+                    <a href="#" class="text-link">Reviews</a>
+                    <img src="./images/Buying.png" class="icon-buying" alt="Buying Guides">
+                    <a href="#" class="text-link">Buying Guides</a>
+                    <img src="./images/Sign_up.png" class="icon-signUp" alt="Sign Up">
+                    <a href="#" class="link-signup">Sign up</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="flex-1">
+        <section class="categories">
             <div class="container">
-
+                <div class="wrapper flex items-center ">
+                    <img src="./images/Section_Easy.png" alt="Bord" class="image-categories">
+                    <div class="content-categories wrap">
+                        <span class="font-green">Introducing Affiliate Template for Webflow</span>
+                        <h1 class="title-categories">Easy-to-use Template for building Affiliate Sites</h1>
+                        <p class="disription"><b>Affiliate</b> is a Webflow template made for entrepreneurs who
+                            want a professional and polished site ready to start and grow their affiliate marketing
+                            business in any niche.
+                        </p>
+                        <a href="#" class="btn btn-green">Buy this Template</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <h2 class="title-blog">Latest from the Blog</h2>
+                <div class="wrapper-blog flex">
+                    <div class="card-left wrap">
+                        <img src="./images/wrapper-left.jpg" alt="Nature">
+                        <h3 class="title-blog">How to Prep Your Lawn in the Spring</h3>
+                        <p class="text-blog">This is the blog description text. This is the blog description
+                            text. This is the blog description text.</p>
+                    </div>
+                    <div class="flex flex-col justify-center justify-space-between">
+                        <div class="card flex items-center">
+                            <img src="./images/card_top.jpg" alt="Nature">
+                            <span class="discription">Secrets to Know About Hedge Trimming</span>
+                        </div>
+                        <div class="card flex items-center">
+                            <img src="./images/card-center.jpg" alt="Nature">
+                            <span class="discription">What to Do With a Dying Tree</span>
+                        </div>
+                        <div class="card flex items-center">
+                            <img src="./images/card_down.jpg" alt="Nature">
+                            <span class="discription">Which Flowers Should You Plant Garden</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-blog flex">
+                    <img src="./images/button_view.png" alt="Triangle">
+                    <a href="#">View All Blog Articles</a>
+                </div>
+            </div>
+        </section>
+        <section class="view flex ">
+            <div class="container">
+                <div class="wrapper-view flex items-center">
+                    <img src="./images/image_section_view.png" class="icon-view" alt="background">
+                    <p class="discription-view flex-1">View our list of the best products in lawncare.</p>
+                    <a href="#" class="btn btn-green">See the list</a>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="container">
+                <h2 class="title-product">Latest Product Reviews</h2>
+                <div class="wrapper-product flex">
+                    <div class="card-left">
+                        <img src="./images/product_left.jpg" alt="Gazon">
+                        <a href="#" class="btn btn-black">Lawns</a>
+                        <div class="card-text">
+                            <h3 class="title-block">Lawnmower Xtreme</h3>
+                            <span class="text-product">This is the Review Snippet. This is the Review Snippet. This is
+                                the Review Snippet. This is the Review Snippet.</span>
+                        </div>
+                    </div>
+                    <div class="card-center">
+                        <img src="./images/product_center.jpg" alt="Picture">
+                        <a href="#" class="btn btn-black">Garden</a>
+                        <div class="card-text">
+                            <h3 class="title-block">Ultra Grow Fertilizer</h3>
+                            <span class="text-product">This is the Review Snippet. This is the Review Snippet. This is
+                                the Review Snippet. This is the Review Snippet.</span>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <img src="./images/product_right.jpg" alt="Nature">
+                        <a href="#" class="btn btn-black">Hedges</a>
+                        <div class="card-text">
+                            <h3 class="title-block">Hedge Clippers</h3>
+                            <span class="text-product">This is the Review Snippet. This is the Review Snippet. This is
+                                the Review Snippet. This is the Review Snippet.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-product flex">
+                    <img src="./images/button_view.png" alt="Triangle">
+                    <a href="#">View all Product Reviews</a>
+                </div>
+            </div>
+        </section>
+        <section class="signup">
+            <div class="container">
+                <div class="wrapper-signup flex">
+                    <img src="./images/Image_signup.png" alt="Picture" class="image-signup">
+                    <div class="card-signup wrap">
+                        <div class="newsletter background flex items-center">
+                            <img src="./images/convert.png" alt="Convert" class="image-convert justify-center">
+                            <h3 class="title-newsletter">Newsletter Signup</h3>
+                        </div>
+                        <div class="card-form">
+                            <p class="text-newsletter">Be the first to receive updates on articles, product reviews,
+                                courses, and more!</p>
+                            <form>
+                                <label>
+                                    <input type="email" placeholder="Your email">
+                                </label>
+                            </form>
+                            <div>
+                                <a href="#" class="btn btn-yellow"><b>Submit</b></a>
+                                <span class="privacy-policy">Privacy Policy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-
+        <h2 class="text-center">Latest Articles</h2>
     </footer>
 </body>
 
