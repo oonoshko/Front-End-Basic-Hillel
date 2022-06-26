@@ -11,10 +11,12 @@
 
 <body class="flex flex-col min-h-screen">
     <header class="header">
-        <div class="container">
-            <div class="flex items-center justify-center">
-                <img src="./images/logo.png" class="logo" alt="logo">
-                <nav class="nav flex items-center justify-center">
+        <nav class="nav lh-20 flex items-center justify-center">
+            <div class="container flex">
+                <a href="#">
+                    <img src="./images/logo.png" class="logo" alt="logo">
+                </a>
+                <div class="flex items-center grow">
                     <a href="#" class="text-link">Pages</a>
                     <img src="./images/Categories.png" class="icon-categories" alt="Categories">
                     <a href="#" class="text-link">Categories</a>
@@ -24,16 +26,18 @@
                     <a href="#" class="text-link">Reviews</a>
                     <img src="./images/Buying.png" class="icon-buying" alt="Buying Guides">
                     <a href="#" class="text-link">Buying Guides</a>
+                </div>
+                <div class="flex items-center flex-1">
                     <img src="./images/Sign_up.png" class="icon-signUp" alt="Sign Up">
                     <a href="#" class="link-signup">Sign up</a>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <main class="flex-1">
         <section class="categories">
             <div class="container">
-                <div class="wrapper flex items-center ">
+                <div class="gap-50 flex items-center justify-center">
                     <img src="./images/Section_Easy.png" alt="Bord" class="image-categories">
                     <div class="content-categories wrap">
                         <span class="font-green">Introducing Affiliate Template for Webflow</span>
@@ -42,7 +46,7 @@
                             want a professional and polished site ready to start and grow their affiliate marketing
                             business in any niche.
                         </p>
-                        <a href="#" class="btn btn-green">Buy this Template</a>
+                        <a href="#" class="btn btn-green lh-20">Buy this Template</a>
                     </div>
                 </div>
             </div>
@@ -50,11 +54,12 @@
         <section class="blog">
             <div class="container">
                 <h2 class="title-blog">Latest from the Blog</h2>
-                <div class="wrapper-blog flex">
+                <div class="gap-40 flex justify-center">
                     <div class="card-left wrap">
                         <img src="./images/wrapper-left.jpg" alt="Nature">
                         <h3 class="title-blog">How to Prep Your Lawn in the Spring</h3>
-                        <p class="text-blog">This is the blog description text. This is the blog description
+                        <p class="text-blog lh-20">This is the blog description text. This is the blog
+                            description
                             text. This is the blog description text.</p>
                     </div>
                     <div class="flex flex-col justify-center justify-space-between">
@@ -72,31 +77,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="view-blog flex">
+                <div class="view-blog lh-20 flex">
                     <img src="./images/button_view.png" alt="Triangle">
                     <a href="#">View All Blog Articles</a>
                 </div>
             </div>
         </section>
-        <section class="view flex ">
+        <div class="view">
             <div class="container">
-                <div class="wrapper-view flex items-center">
+                <div class="wrapper-view flex items-center justify-center">
                     <img src="./images/image_section_view.png" class="icon-view" alt="background">
-                    <p class="discription-view flex-1">View our list of the best products in lawncare.</p>
-                    <a href="#" class="btn btn-green">See the list</a>
+                    <p class="discription flex-1">View our list of the best products in lawncare.</p>
+                    <a href="#" class="btn btn-green lh-20">See the list</a>
                 </div>
             </div>
-        </section>
+        </div>
         <section class="product">
             <div class="container">
                 <h2 class="title-product">Latest Product Reviews</h2>
-                <div class="wrapper-product flex">
+                <div class="gap-40 lh-20 flex items-center justify-center">
                     <div class="card-left">
                         <img src="./images/product_left.jpg" alt="Gazon">
                         <a href="#" class="btn btn-black">Lawns</a>
                         <div class="card-text">
                             <h3 class="title-block">Lawnmower Xtreme</h3>
-                            <span class="text-product">This is the Review Snippet. This is the Review Snippet. This is
+                            <span class="text-product">This is the Review Snippet. This is the Review
+                                Snippet. This is
                                 the Review Snippet. This is the Review Snippet.</span>
                         </div>
                     </div>
@@ -105,8 +111,8 @@
                         <a href="#" class="btn btn-black">Garden</a>
                         <div class="card-text">
                             <h3 class="title-block">Ultra Grow Fertilizer</h3>
-                            <span class="text-product">This is the Review Snippet. This is the Review Snippet. This is
-                                the Review Snippet. This is the Review Snippet.</span>
+                            <span class="text-product">This is the Review Snippet. This is the Review
+                                Snippet. This is the Review Snippet. This is the Review Snippet.</span>
                         </div>
                     </div>
                     <div class="card-right">
@@ -114,12 +120,13 @@
                         <a href="#" class="btn btn-black">Hedges</a>
                         <div class="card-text">
                             <h3 class="title-block">Hedge Clippers</h3>
-                            <span class="text-product">This is the Review Snippet. This is the Review Snippet. This is
+                            <span class="text-product">This is the Review Snippet. This is the Review
+                                Snippet. This is
                                 the Review Snippet. This is the Review Snippet.</span>
                         </div>
                     </div>
                 </div>
-                <div class="view-product flex">
+                <div class="view-product lh-20 flex">
                     <img src="./images/button_view.png" alt="Triangle">
                     <a href="#">View all Product Reviews</a>
                 </div>
@@ -127,33 +134,109 @@
         </section>
         <section class="signup">
             <div class="container">
-                <div class="wrapper-signup flex">
+                <div class="gap-50 flex items-center justify-center">
                     <img src="./images/Image_signup.png" alt="Picture" class="image-signup">
                     <div class="card-signup wrap">
-                        <div class="newsletter background flex items-center">
-                            <img src="./images/convert.png" alt="Convert" class="image-convert justify-center">
-                            <h3 class="title-newsletter">Newsletter Signup</h3>
+                        <div class="newsletter flex">
+                            <div class="image-convert flex">
+                                <img src="./images/convert.png" alt="Convert">
+                            </div>
+                            <h3 class="title-newsletter flex items-center">Newsletter Signup</h3>
                         </div>
-                        <div class="card-form">
+                        <div class="card-form lh-20">
                             <p class="text-newsletter">Be the first to receive updates on articles, product reviews,
                                 courses, and more!</p>
                             <form>
-                                <label>
-                                    <input type="email" placeholder="Your email">
-                                </label>
+                                <div>
+                                    <input class="lh-20" type="email" placeholder="Your email">
+                                </div>
                             </form>
-                            <div>
-                                <a href="#" class="btn btn-yellow"><b>Submit</b></a>
-                                <span class="privacy-policy">Privacy Policy</span>
-                            </div>
+                            <a href="#" class="btn btn-yellow"><b>Submit</b></a>
+                            <span class="privacy-policy">Privacy Policy</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <h2 class="text-center">Latest Articles</h2>
+    <footer class="footer">
+        <div class="content-footer">
+            <div class="container">
+                <div class="wrapper-footer flex">
+                    <div class="social-block">
+                        <img src="./images/logo.png" class="logo" alt="logo">
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <img src="./images/facebook.png" alt="facebook">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="./images/tweeter.png" alt="tweeter">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="./images/instagram.png" alt="instagram">
+                            </a>
+                        </div>
+                        <p class="content lh-20"><b>Affiliate</b> is a Webflow template made for entrepreneurs
+                            who want a professional and polished site ready to start and grow their affiliate marketing
+                            business in
+                            any niche.</p>
+                    </div>
+                    <div class="picture-block">
+                        <h3 class="title-picture-block">Latest Articles</h3>
+                        <div class="wrapper-card flex flex-col justify-space-between">
+                            <div class="card flex items-center">
+                                <img src="./images/wrapper-left.jpg" alt="Nature">
+                                <span class="discription">Secrets to Know About Hedge Trimming</span>
+                            </div>
+                            <div class="card flex items-center">
+                                <img src="./images/card_top.jpg" alt="Nature">
+                                <span class="discription">What to Do With a Dying Tree</span>
+                            </div>
+                            <div class="card flex items-center">
+                                <img src="./images/card-center.jpg" alt="Nature">
+                                <span class="discription">Which Flowers Should You Plant Garden</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-block flex flex-col">
+                        <h3 class="title-nav-block">Browse</h3>
+                        <form>
+                            <div class="flex">
+                                <input type="text" name="search" class="flex-1">
+                                <a href="#" class="text-form text-center lh-20">Search</a>
+                            </div>
+                        </form>
+                        <div class="nav-group lh-20">
+                            <ul class="flex flex-col">
+                                <li>About</li>
+                                <li>Categories</li>
+                                <li>Tools</li>
+                                <li>Contact</li>
+                                <li>Privacy Policy</li>
+                                <li>Affiliate Disclosure</li>
+                            </ul>
+                            <div class="line"></div>
+                            <p class="last-text">©2022 Your Brand Name</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright lh-20 flex justify-space-between">
+                <div class="left-part flex">
+                    <p>Style Guide</p>
+                    <p>Licenses</p>
+                    <p>Changelog</p>
+                </div>
+                <div class="right-part flex">
+                    <p>Powered by</p>
+                    <p>Webflow</p>
+                    <p>. Designed by</p>
+                    <p>Kevin Barrett</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
