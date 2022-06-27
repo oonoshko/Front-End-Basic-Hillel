@@ -93,7 +93,6 @@
 }
 
 .content-categories {
-    flex-direction: row;
     justify-content: flex-start;
     padding-right: 50px;   
 }
@@ -143,7 +142,7 @@
     font-size: 18px;
     line-height: 25px;
 }
-.content-categories:hover .btn {
+.hover:hover .btn-green {
     background-color: #FFC728;
     color: #1D2F38;
 }
@@ -174,10 +173,6 @@
     line-height: 22px;
     margin-right: 40px;
 }
-.wrapper-view:hover .btn {
-    background-color: #FFC728;
-    color: #1D2F38;
-}
 
 /* ...............section Product............. */
 .product {
@@ -200,9 +195,7 @@
     border-radius: 3px;
     padding: 5px 10px;    
 }
-.card-left:hover .btn,
-.card-center:hover .btn,
-.card-right:hover .btn {
+.hover:hover .btn-black {
     background-color: white;
     color: #1D2F38;
 }
@@ -290,10 +283,6 @@
     padding: 15px 21px 15px 19px;
 }
 
-.card-form:hover .btn {
-background-color: #17A550;
-color: #ffffff;
-}
 .card-signup .card-form .privacy-policy {
     font-size: 12px;
     color: #536D7A;
@@ -336,8 +325,8 @@ color: #ffffff;
     gap: 20px;
 }
 .footer .picture-block .wrapper-card img {
-    max-width: 139px;
-    max-height: 100px;
+    width: 139px;
+    height: 100px;
     border-radius: 7px;
     gap: 9px;
 }
@@ -369,7 +358,7 @@ color: #ffffff;
     gap: 7px;
 }
 .footer .nav-block .nav-group .line {
-    margin-top: 20px;
+    margin-top: 27px;
     border-bottom: 1px solid #536D7A;
 }
 .footer .nav-block .nav-group .last-text {
@@ -381,12 +370,7 @@ color: #ffffff;
     border-top: 1px solid #536D7A;
     font-size: 12px;
     padding-top: 22px;
-    flex-direction: row;
 }
 .left-part {
-    flex-direction: row;
     gap: 10px;
-}
-.right-part {
-flex-direction: row;
 }
