@@ -21,7 +21,7 @@
 .justify-center {
     justify-content: center;
 }
-.justify-space-between {
+.justify-between {
     justify-content: space-between;
 }
 .min-h-screen {
@@ -47,34 +47,37 @@
     border-radius: 5px;
 }
 
+
 /*.................... header................. */
 .header{
+    box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+    background-color: #FFFFFF;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .logo {
-    padding-right: 30px;
+    margin-right: 30px;
 }
 .text-link, .link-signup {
     font-size: 14px;    
 }
 .icon-categories {
-    padding-right: 12px;
-    padding-left: 49px;
+    margin-right: 12px;
+    margin-left: 49px;
 }
 .icon-blog {
-    padding-left: 41px;
+    margin-left: 41px;
 }
 .icon-reviews {
-    padding-right: 3px;
-    padding-left: 38px;
+    margin-right: 3px;
+    margin-left: 38px;
 }
 .icon-buying {
-    padding-right: 6px;
-    padding-left: 34px;
+    margin-right: 6px;
+    margin-left: 34px;
 }
 .icon-signUp {
-    padding-right: 12px;
+    margin-right: 12px;
 }
 .grow {
     flex-grow: 3;
@@ -82,35 +85,37 @@
 
 /* ...........section Categories.............. */
 .categories {
+    padding-top: 60px;
+}
+.wrapper-categories {    
     background-color: #E3EBF1;
     border-radius: 10px;
     padding-top: 50px;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
 }
-
 .image-categories {
-    padding-left: 50px;
+    margin-left: 50px;
 }
-
 .content-categories {
     justify-content: flex-start;
-    padding-right: 50px;   
+    margin-right: 50px;   
 }
 .font-green {
     font-size: 18px;
     line-height: 25px;
     color: #10843F;
-    padding-bottom: 8px;
 }
 .title-categories {
     font-size: 47px;
     line-height: 52px;
+    margin-top: 8px;
     margin-bottom: 22px;
 }
 .content-categories .disription {    
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 25px;
+    margin-right: 26px;
 }
 
 /* ...............section Blog................ */
@@ -118,10 +123,12 @@
     padding-top: 77px;
     padding-bottom: 100px;
 }
+.wrapper-blog {
+    background-color: #FFFFFF;
+}
 .title-blog {
     margin-bottom: 33px;
 }
-
 .card-left {
     max-width: 555px;
     justify-content: flex-start;
@@ -134,32 +141,31 @@
 .text-blog {
     font-size: 15px;
 }
-
-.card {
+.wrapper-blog .card {
     gap: 15px;
 }
-.blog .card .discription {
+.wrapper-blog .card .discription {
     font-size: 18px;
     line-height: 25px;
 }
-.hover:hover .btn-green {
+.btn-green:hover {
     background-color: #FFC728;
     color: #1D2F38;
 }
 .view-blog {    
-    padding-top: 74px;
+    margin-top: 74px;
 }
 .view-blog img {
     margin-right: 4px;
 }
 
 /* .............section Reviews............... */
-.view {
+.wrapper-view {
     background: rgb(128, 128, 128) url(../images/background.png) no-repeat center/cover;
+    border-radius: 10px;
     padding-top: 39px;
     padding-bottom: 41px;
 }
-
 .wrapper-view .icon-view {
     margin-right: 12px;
     padding-left: 30px;
@@ -168,48 +174,46 @@
     font-size: 28px;
     line-height: 32px;   
 }
-
 .wrapper-view .btn-green {
     line-height: 22px;
     margin-right: 40px;
 }
 
 /* ...............section Product............. */
-.product {
+.product {    
     padding-top: 97px;
     padding-bottom: 100px;
+}
+.wrapper-product {
+    background-color: #FFFFFF;
 }
 .title-product {
     margin-bottom: 33px;
 }
-
-.card-left, .card-center, .card-right {
+.card-product {
     background-color: #F7F9FA;
     border-radius: 10px;
+    padding-bottom: 39px;
     position: relative;
 }
-
 .btn-black {
     font-size: 12px;
     background-color: rgba(29, 47, 56, 0.8);
     border-radius: 3px;
     padding: 5px 10px;    
 }
-.hover:hover .btn-black {
+.btn-black:hover {
     background-color: white;
     color: #1D2F38;
 }
-
-.card-left .btn-black,
-.card-center .btn-black,
-.card-right .btn-black {
+.card-product .btn-black {
     position: absolute;
     top: 15px;
     left: 15px; 
 }
-
 .card-text {
-    padding-left: 25px;
+    margin-left: 25px;
+    margin-right: 33px;
 }
 .title-block {
     font-size: 30px;
@@ -217,12 +221,9 @@
     margin-top: 24px;
     margin-bottom: 13px;
 }
-
 .text-product {
     font-size: 15px;
-    padding-bottom: 39px;
 }
-
 .product .view-product {
     margin-top: 40px;
 }
@@ -232,15 +233,19 @@
 
 /* ...............section SignUp.............. */
 .signup {
+    padding-bottom: 100px;
+}
+.wrapper-signup {
     background: rgb(128, 128, 128) url(../images/background2.png) no-repeat center/cover;
+    border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .image-signup {
-    padding-left: 50px;
+    margin-left: 50px;
 }
 .card-signup {
-    padding-right: 50px;
+    margin-right: 50px;
     margin-top: 7.7px;    
 }
 .card-signup .image-convert {
@@ -262,7 +267,6 @@
     font-size: 18px;
     line-height: 24px;    
 }
-
 .card-signup .card-form input {
     font-size: 12px;    
     background: #FFFFFF;
@@ -282,7 +286,10 @@
     color: #000000;
     padding: 15px 21px 15px 19px;
 }
-
+.card-signup .card-form .btn-yellow:hover {
+    background-color: #17A550;
+    color: #FFFFFF;
+}
 .card-signup .card-form .privacy-policy {
     font-size: 12px;
     color: #536D7A;
@@ -291,10 +298,14 @@
 
 /* ..................footer................... */
 .footer {
-    background-color: #F7F9FA;    
-}
-.content-footer {
+    background-color: #F7F9FA;
     padding-top: 59px;
+    padding-bottom: 21px;
+}
+.wrapper-footer {
+    padding-bottom: 20px;
+}
+.content-footer {    
     padding-bottom: 59px;
 }
 .footer .wrapper-footer {
@@ -308,34 +319,36 @@
     width: 100%;
 }
 .social-block .social-links {
-    padding-top: 11px;
-    padding-bottom: 19px;
+    margin-top: 11px;
+    margin-bottom: 19px;
 }
 
 /* ..................spicture-block................... */
-.footer .picture-block .title-picture-block,
-.footer .nav-block .title-nav-block {
+.title-footer {
     font-size: 30px;
     line-height: 35px;
     color: #333333
 }
-.footer .picture-block .wrapper-card {
-    padding-top: 12px;
-    padding-bottom: 20px;
+.footer .picture-block .title-footer {
+    margin-bottom: 12px;
+}
+.wrapper-card {
     gap: 20px;
 }
-.footer .picture-block .wrapper-card img {
+.footer .picture-block .card {
+    gap: 9px;
+}
+.footer .picture-block .wrapper-card .card img {
     width: 139px;
     height: 100px;
-    border-radius: 7px;
-    gap: 9px;
+    border-radius: 7px;   
 }
 .footer .picture-block .discription {
     line-height: 18px;
 }
 
 /* ..................nav-block................... */
-.footer .nav-block .title-nav-block {
+.footer .nav-block .title-footer {
     margin-bottom: 13px;
 }
 
@@ -351,10 +364,14 @@
     background-color: #768F9C;
     border-radius: 0px 5px 5px 0px;
 }
+.footer .nav-block .text-form:hover {
+    background-color: #9acd32;
+    color: #1D2F38;
+}
 
 .footer .nav-block .nav-group ul{
     list-style: none;
-    padding-top: 20px;
+    margin-top: 20px;
     gap: 7px;
 }
 .footer .nav-block .nav-group .line {
