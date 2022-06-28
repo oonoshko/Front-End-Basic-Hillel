@@ -37,6 +37,7 @@
     gap: 40px;
 }
 .btn {
+    display: inline-block;
     color: #FFFFFF;
     border: none;
 }
@@ -58,25 +59,19 @@
 .logo {
     margin-right: 30px;
 }
-.text-link, .link-signup {
+.text-link {
     font-size: 14px;    
 }
-.icon-categories {
-    margin-right: 12px;
-    margin-left: 49px;
+.nav-categories img {
+    margin-right: 12px;    
 }
-.icon-blog {
-    margin-left: 41px;
+.nav-reviews img {
+    margin-right: 3px;    
 }
-.icon-reviews {
-    margin-right: 3px;
-    margin-left: 38px;
+.nav-buying img {
+    margin-right: 6px;    
 }
-.icon-buying {
-    margin-right: 6px;
-    margin-left: 34px;
-}
-.icon-signUp {
+.nav-signup img {
     margin-right: 12px;
 }
 .grow {
@@ -90,15 +85,11 @@
 .wrapper-categories {    
     background-color: #E3EBF1;
     border-radius: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
-.image-categories {
-    margin-left: 50px;
-}
+
 .content-categories {
-    justify-content: flex-start;
-    margin-right: 50px;   
+    justify-content: flex-start;       
 }
 .font-green {
     font-size: 18px;
@@ -163,20 +154,17 @@
 .wrapper-view {
     background: rgb(128, 128, 128) url(../images/background.png) no-repeat center/cover;
     border-radius: 10px;
-    padding-top: 39px;
-    padding-bottom: 41px;
+    padding: 39px 40px 41px 30px;   
 }
 .wrapper-view .icon-view {
-    margin-right: 12px;
-    padding-left: 30px;
+    margin-right: 12px;    
 }
 .wrapper-view .discription {
     font-size: 28px;
     line-height: 32px;   
 }
 .wrapper-view .btn-green {
-    line-height: 22px;
-    margin-right: 40px;
+    line-height: 22px;    
 }
 
 /* ...............section Product............. */
@@ -238,15 +226,10 @@
 .wrapper-signup {
     background: rgb(128, 128, 128) url(../images/background2.png) no-repeat center/cover;
     border-radius: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;    
 }
-.image-signup {
-    margin-left: 50px;
-}
-.card-signup {
-    margin-right: 50px;
-    margin-top: 7.7px;    
+.card-signup {    
+    margin-top: 8px;    
 }
 .card-signup .image-convert {
     max-width: 60px;
@@ -278,7 +261,7 @@
     margin-top: 24px;
     margin-bottom: 31px;
 }
-.card-signup .card-form .btn-yellow {
+.card-signup .card-form .btn-yellow {    
     background: #FFC728;
     border-radius: 5px;
     font-size: 12px;
@@ -355,14 +338,14 @@
 .footer .nav-block input {
     background: #FFFFFF;
     border: 1px solid #AABCC5;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0 0 5px;
 }
 .footer .nav-block .text-form {
     font-size: 12px;
     color: #FFFFFF;
     padding: 14px 20px;
     background-color: #768F9C;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0 5px 5px 0;
 }
 .footer .nav-block .text-form:hover {
     background-color: #9acd32;
