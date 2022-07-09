@@ -1,7 +1,140 @@
+/* md-устройства (больше или равно 768px) */
+@media (min-width: 768px) {
+  /* CSS для: 768px <= ширины <= 991px */
+  .container.wide {
+    width: 100%;
+    max-width: calc(768px + 2rem);      
+  }  
+  .container {
+    width: 100%;
+    max-width: calc(648px + 2rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .header {
+    padding: 50px 0 0 60px;
+    background-color: #ffffff;      
+  }
+  .up-header {
+    justify-content: left;
+    gap: 6px;
+  }
+  .up-header .contacts {
+    display: contents;     
+  }
+  .dot {
+    display: initial;
+    min-width: 6px;
+    min-height: 6px;
+    background-color: #E6E6F0;
+    border-radius: 50%;
+  }
+  .contacts .adress {
+    display: initial;
+    font-weight: 400;
+    line-height: 20px;
+  }    
+  .up-header .contacts svg {
+    display: initial;
+    color: #B3B3BA;
+  }
+
+/* ..............logo-burger.............. */
+  
+  .logo-burger {
+    padding: 30px 0 5px 60px;      
+  }
+  .logo-burger .wrapper {
+    flex-direction: column;
+    display: contents;
+  }
+  .logo-burger img {
+    max-width: 130px;
+    max-height: 60px;
+  }
+  .logo-burger .slash {
+    max-width: 21px;
+    max-height: 47px;
+  }
+  .logo-burger .team {
+    font-size: 36px;
+    line-height: 44px;      
+  }
+  
+/* ..............burger menu.............. */
+  .checkbox,
+  .burger {
+    display: none;
+  }
+  .burger + .nav {
+    display: flex;
+  }
+  .burger-menu .nav {
+    background-color: unset;
+    max-width: initial;
+    min-height: initial;
+    margin: 0; 
+    margin-top: 30px;    
+  }
+  .nav ul {      
+    max-width: initial;
+    min-height: initial;
+    background-color: unset;           
+    flex-direction: row;
+    position: static;      
+    padding: 0;
+  }
+  .nav .links li {           
+    background-color: unset;
+    padding: 0; 
+    border-bottom: 2px solid transparent;
+  }
+  
+  /* ..............first-screen.............. */ 
+  .first-screen {
+    padding: 60px 0;
+  }
+  .first-screen .wrapper {
+    justify-content: space-between;
+    gap: 60px;
+    
+  }
+  .first-screen .title {
+    font-size: 38px;
+    line-height: 46px;     
+    margin-bottom: 60px;
+  }    
+  .first-screen .card img {
+    max-width: 294px;
+    height: 400px;
+    object-fit: cover;
+  }
+  /* ..............footer.............. */
+  .footer {      
+    padding: 30px 0;
+  }
+  .adress-footer {
+    flex-direction: row;
+    margin-left: 125px;
+  }
+
+  .adress-footer .adress {      
+    margin-bottom: 0;
+  }
+  .footer .contacts {
+    flex-direction: row;
+    margin-left: 125px;
+  }     
+}
+
+/* lg-устройства (больше или равно 992px) */
 @media (min-width: 992px) {
-    .container {
-        max-width: calc(1110px+2rem);
-        margin-left: auto;
-        margin-right: auto;
-    }
+  /* CSS для: 992px <= ширины <= 1119px */
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media (min-width: 1200px) {
+  /* CSS для: ширины >= 1200px */
 }
