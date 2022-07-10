@@ -26,10 +26,12 @@
 }
 
 /* ..............header, up-header.............. */
-.header {
-  padding: 10px 15px;
-  color: #B3B3BA;
+.header {  
+  color: #B3B3BA;  
+ }
+ .up-header {
   background-color: #F5F5FA;
+  padding: 10px 15px;
  }
 .form-languages {
   font-size: 12px;
@@ -53,7 +55,6 @@
   color: #FFFFFF;
   border-radius: 8px;
 }
-
 .dot {
   display: none;  
 }
@@ -63,25 +64,29 @@
 .up-header .tel {
   line-height: 20px;
 }
-.up-header svg {
+.up-header .contacts svg {
   display: none; 
+}
+.up-header .contacts > svg:hover {
+  color: #F0145A;
 }
 
 /* ..............logo-burger.............. */
-.logo-burger {
+.logo-wrapper {
   padding: 15px 15px 10px 15px;
+  background-color: #FFFFFF;
 }
-.logo-burger img {
+.logo img {
   max-width: 69px;
   max-height: 32px;
 }
-.logo-burger .slash {
+.logo .slash {
   max-width: 11px;
   max-height: 26px;
   margin: 0 4px;
   color: #F0145A;
 }
-.logo-burger .team { 
+.logo .team { 
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -92,7 +97,7 @@
 .checkbox {
   position: absolute;
   top: 60px;
-  right: 32px;
+  right: 15px;
   min-width: 32px;
   min-height: 32px;
   z-index: 1;
@@ -139,8 +144,8 @@
   opacity: 1;
   z-index: 1;
   position: absolute;
-    top: -32px;
-    left: -4px;
+    top: -34px;
+    left: -12px;
 }
 .checkbox:checked + .burger span:nth-child(3) {
   background-color: #EC6F5D;
@@ -148,13 +153,13 @@
   opacity: 1;
   z-index: 1;
   position: absolute;
-  top: -32px;
-  left: -4px;    
+  top: -34px;
+  left: -12px;    
 }
 .checkbox:checked {
   position: absolute;
   top: 12px;
-  right: 42px;
+  right: 35px;
   z-index: 2;
 }
 /* ..............nav.............. */
@@ -277,9 +282,11 @@
   background: #F5F5FA;  
   padding: 32px 30px 30px 30px;  
 }
+.footer .wrapper {
+  gap: 25px;
+}
 .adress-footer {
-  gap: 10px;
-  margin-bottom: 21px;
+  gap: 10px; 
 }
 .adress-footer .adress {
   font-weight: 400;
@@ -296,8 +303,7 @@
 .footer .contacts {
   line-height: 20px;
   gap: 10px;
-  margin-bottom: 30px;
-}
+ }
 .footer .contacts svg {
   color: #24A3FF;
 }
