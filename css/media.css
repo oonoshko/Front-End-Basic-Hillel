@@ -6,7 +6,7 @@
     max-width: calc(768px + 2rem);
     padding-left: 1rem;
     padding-right: 1rem;
-  }  
+  }
   .container {
     width: 100%;
     max-width: calc(648px + 2rem);
@@ -16,7 +16,7 @@
     padding-right: 1rem;
   }
   .header {
-    padding: 50px 0 0 60px;          
+    padding: 50px 0 0 60px;
   }
   .up-header {
     background-color: #ffffff;
@@ -25,27 +25,30 @@
     gap: 6px;
   }
   .up-header .contacts {
-    display: contents;     
+    display: contents;
   }
   .dot {
     display: initial;
     min-width: 6px;
     min-height: 6px;
-    background-color: #E6E6F0;
+    background-color: #e6e6f0;
     border-radius: 50%;
   }
   .contacts .adress {
     display: initial;
     font-weight: 400;
     line-height: 20px;
-  }    
+  }
   .up-header .contacts svg {
     display: initial;
-    color: #B3B3BA;
-  }  
+    color: #b3b3ba;
+  }
+  .up-header .contacts svg > path:hover {
+    color: #f0145a;
+  }
 
-/* ..............logo-burger.............. */
-  
+  /* ..............logo-burger.............. */
+
   .logo-wrapper {
     padding: 0;
     flex-direction: column;
@@ -64,10 +67,10 @@
   }
   .logo-wrapper .team {
     font-size: 36px;
-    line-height: 44px;      
+    line-height: 44px;
   }
-  
-/* ..............burger menu.............. */
+
+  /* ..............burger menu.............. */
   .burger-menu {
     margin-top: 30px;
   }
@@ -82,58 +85,57 @@
     background-color: unset;
     max-width: initial;
     min-height: initial;
-    margin: 0;        
+    margin: 0;
   }
-  .nav ul {      
+  .nav ul {
     max-width: initial;
     min-height: initial;
-    background-color: unset;           
+    background-color: unset;
     flex-direction: row;
-    position: static;      
+    position: static;
     padding: 0;
   }
-  .nav .links li {           
+  .nav .links li {
     background-color: unset;
-    padding: 0; 
+    padding: 0;
   }
-  
-  /* ..............first-screen.............. */ 
+
+  /* ..............first-screen.............. */
   .first-screen {
     padding: 60px 0;
   }
   .first-screen .wrapper {
     justify-content: space-between;
     gap: 60px;
-    
   }
   .first-screen .title {
     font-size: 38px;
-    line-height: 46px;     
+    line-height: 46px;
     margin-bottom: 60px;
-  }    
+  }
   .first-screen .card img {
     max-width: 294px;
     height: 400px;
     object-fit: cover;
   }
   /* ..............footer.............. */
-  .footer {      
+  .footer {
     padding: 30px 0;
   }
-  .footer .wrapper {      
+  .footer .wrapper {
     margin-left: 125px;
     justify-content: flex-start;
     align-items: initial;
   }
   .adress-footer {
-    flex-direction: row;        
+    flex-direction: row;
   }
 
-  .adress-footer .adress {      
+  .adress-footer .adress {
     margin-bottom: 0;
   }
   .footer .contacts {
-    flex-direction: row;    
+    flex-direction: row;
   }
   .footer .copyright {
     text-align: left;
@@ -166,10 +168,10 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
-  .up-header {    
+  .up-header {
     grid-column: 2/4;
-    grid-row: 1/2;    
-    justify-content: end;       
+    grid-row: 1/2;
+    justify-content: end;
   }
   .logo {
     grid-column: 1/2;
@@ -192,23 +194,24 @@
   }
 
   .first-screen .title {
-    margin: 0 120px;    
+    margin: 0 120px 60px 120px;
   }
 
   .first-screen .card img {
-    max-width: 261px;    
+    max-width: 261px;
   }
 
-    /* ..............footer.............. */
-   .footer .wrapper {
+  /* ..............footer.............. */
+  .footer .wrapper {
     margin-left: 0;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;   
+    justify-content: space-between;
   }
-   .footer .contacts {
+  .footer .contacts {
     margin: 0;
-    order: 1;   
+    order: 1;
+    width: 100%;
   }
   .footer .copyright {
     order: 0;
@@ -225,7 +228,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
+
   .container {
     width: 100%;
     max-width: calc(1320px + 2rem);
@@ -234,12 +237,35 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
-    .first-screen .title {
-      margin: 0 120px 60px 120px;
-    }
-  
-    .first-screen .card img {
-      max-width: 400px;
-    }
-   
+  .first-screen .title {
+    margin: 0 120px 60px 120px;
+  }
+
+  .first-screen .card img {
+    max-width: 400px;
+  }
+}
+/* xxl-устройства (больше или равно 1600px) */
+@media (min-width: 1920px) {
+  /* CSS для: ширины >= 1200px */
+  .container-wide {
+    width: 100%;
+    max-width: calc(1600px + 2rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container {
+    width: 100%;
+    max-width: calc(1600px + 2rem);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .header {
+    padding: 50px 0 0 0;
+  }
+  .first-screen .card img {
+    min-width: 493px;
+  }
 }
