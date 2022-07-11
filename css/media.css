@@ -92,12 +92,17 @@
     min-height: initial;
     background-color: unset;
     flex-direction: row;
+    transition: none;
     position: static;
     padding: 0;
   }
   .nav .links li {
     background-color: unset;
     padding: 0;
+  }
+  .checkbox:checked ~ .nav {
+    display: flex;
+    position: static;
   }
 
   /* ..............first-screen.............. */
