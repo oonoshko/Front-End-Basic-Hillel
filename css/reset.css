@@ -22,15 +22,14 @@ html {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.7;
-  font-style: normal;  
+  font-style: normal;
 }
 
 .container-wide {
   width: 100%;
-  max-width: calc(375px + 2rem);
   margin-left: auto;
   margin-right: auto;
-  }
+}
 
 .container {
   width: 100%;
