@@ -82,15 +82,11 @@
   .nav {
     position: static;
     background-color: unset;
-    transition: none;
   }
   .nav .links {
-    width: initial;
-    min-height: initial;
     background-color: unset;
     flex-direction: row;
     transition: none;
-    position: static;
     padding: 0;
     margin: 0;
   }
