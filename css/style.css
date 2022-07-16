@@ -313,6 +313,7 @@ textarea {
   padding: 15px 0 15px 15px;
   outline: none;
   cursor: pointer;
+  margin-bottom: 15px;
 }
 form:hover .text-form {
   border: 1px solid #24a3ff;
@@ -328,7 +329,9 @@ form:invalid .text-form {
 }
 .down-content .message {
   resize: none;
-  padding: 15px 0 89px 15px;
+  padding: 15px 0 0 15px;
+  min-height: 130px;
+  margin-bottom: 30px;
 }
 ::placeholder {
   font-family: "Montserrat", serif;
@@ -339,15 +342,13 @@ form:invalid .text-form {
 }
 
 /* ........................................ */
-.forms-down {
-  gap: 15px;
-}
-.forms-down h3 {
+.forms-up h3 {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #b3b3ba;
+  margin-bottom: 15px;
 }
 .btn {
   font: inherit;
@@ -361,6 +362,7 @@ form:invalid .text-form {
   box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
   border-radius: 12px;
   padding: 18px 66px;
+  margin-top: 15px;
 }
 .btn-blue:hover {
   background-color: #0085ff;
