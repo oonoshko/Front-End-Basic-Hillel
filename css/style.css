@@ -135,6 +135,7 @@ form:invalid .text-form {
   margin-bottom: 15px;
 }
 .btn {
+  width: 100%;
   font: inherit;
   line-height: 20px;
   text-align: center;
