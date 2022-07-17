@@ -1,0 +1,95 @@
+/* ..............footer.............. */
+.footer {
+  background: #f5f5fa;
+  padding: 30px 0;
+}
+.footer .wrapper {
+  gap: 25px;
+}
+.adress-footer {
+  gap: 10px;
+}
+.adress-footer .adress {
+  font-weight: 400;
+  line-height: 20px;
+  color: #323264;
+}
+.adress-footer .map {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+}
+.footer .contacts {
+  line-height: 20px;
+  gap: 10px;
+}
+.footer .contacts svg {
+  color: #24a3ff;
+  display: block;
+}
+.footer .contacts svg:hover {
+  color: #f0145a;
+}
+.footer .contacts .tel {
+  text-align: right;
+  color: #46466e;
+}
+.footer .contacts .mail {
+  color: #24a3ff;
+}
+.footer .contacts .mail:hover {
+  color: #f0145a;
+}
+.footer .copyright {
+  font-weight: 400;
+  line-height: 20px;
+  color: #b3b3ba;
+}
+
+/* md-устройства (больше или равно 768px) */
+@media (min-width: 768px) {
+  /* CSS для: 768px <= ширины <= 991px */
+
+  .footer .wrapper {
+    margin-left: 125px;
+    justify-content: flex-start;
+    align-items: initial;
+  }
+  .adress-footer {
+    flex-direction: row;
+  }
+
+  .adress-footer .adress {
+    margin-bottom: 0;
+  }
+  .footer .contacts {
+    flex-direction: row;
+  }
+  .footer .copyright {
+    text-align: left;
+    margin-left: 61px;
+  }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media (min-width: 1024px) {
+  /* CSS для: 992px <= ширины <= 1119px */
+
+  .footer .wrapper {
+    margin-left: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer .contacts {
+    margin: 0;
+    order: 1;
+    width: 100%;
+  }
+  .footer .copyright {
+    order: 0;
+    margin-left: 0;
+  }
+}
