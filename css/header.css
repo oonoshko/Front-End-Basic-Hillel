@@ -233,6 +233,10 @@
   .up-header .contacts svg > path:hover {
     color: #f0145a;
   }
+  .logo .text-logo {
+    font-size: 36px;
+    line-height: 44px;
+  }
 
   /* ..............logo-burger.............. */
 
@@ -317,7 +321,6 @@
     grid-column: 1/2;
     grid-row: 1/3;
     margin-top: 0;
-    align-items: center;
     margin: 0;
   }
   .burger-menu {
