@@ -4,7 +4,7 @@
 
   /* ..............first-screen.............. */
   .first-screen {
-    padding: 60px 0;
+    padding: 0 0 60px 0;
   }
   .first-screen .wrapper {
     justify-content: space-between;

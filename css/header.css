@@ -203,7 +203,7 @@
     padding-right: 60px;
   }
   .header .wrapper {
-    padding: 50px 0 0 0;
+    padding: 50px 0 60px 0;
   }
   .up-header {
     background-color: #ffffff;
@@ -306,7 +306,6 @@
   }
 
   .header .wrapper {
-    padding: 50px 0 0 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -341,9 +340,6 @@
     margin-right: auto;
     padding-left: 60px;
     padding-right: 60px;
-  }
-  .header .wrapper {
-    padding: 50px 0 0 0;
   }
 }
 
