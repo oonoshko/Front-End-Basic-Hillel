@@ -1,3 +1,146 @@
 @import url(../css/reset.css);
 @import url(../css/header.css);
 @import url(../css/footer.css);
+
+.text-center {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* .................................... */
+.publications {
+  background-color: #f5f5fa;
+  padding: 30px 30px 0 30px;
+}
+.line::after {
+  content: "";
+  display: block;
+  min-width: 315px;
+  height: 2px;
+  background-color: #e6e6f0;
+  margin-top: 60px;
+}
+.btn-center {
+  justify-content: center;
+}
+.btn-wrapper {
+  background-color: #e6e6f0;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  padding: 2px;
+  max-width: 233px;
+  gap: 2px;
+  position: relative;
+}
+.btn-form input {
+  position: fixed;
+  opacity: 0;
+}
+.btn-form {
+  padding: 8px 30px 10px 30px;
+  border-radius: 10px;
+
+  border: none;
+}
+.btn {
+  font: inherit;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #323264;
+}
+.btn-wrapper input:focus ~ .btn {
+  background-color: #ffffff;
+  padding: 8px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+.btn-form:hover {
+  background-color: #f5f5fa;
+}
+
+/* ..................................... */
+.card-wrapper {
+  gap: 30px;
+  justify-content: center;
+}
+.card {
+  max-width: 315px;
+  min-height: max-content;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.card img {
+  display: block;
+  border-radius: 8px 8px 0px 0px;
+  height: 200px;
+}
+.card-text {
+  margin: 30px;
+}
+.card h3 {
+  font: inherit;
+  line-height: 20px;
+  color: #24a3ff;
+  margin-bottom: 15px;
+}
+.card h3:hover {
+  color: #f0145a;
+}
+
+.data {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+}
+.card .data::after {
+  content: "";
+  display: block;
+  max-width: 255px;
+  height: 4px;
+  background-color: #e6e6f0;
+  margin: 15px 0;
+}
+.card .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+.btn-blue {
+  background-color: #24a3ff;
+  color: #ffffff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  padding: 18px 30px;
+  border: none;
+  margin-top: 30px;
+}
+.btn-blue:hover {
+  background-color: #0085ff;
+}
+.btn-blue:active {
+  background-color: #006ccf;
+}

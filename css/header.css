@@ -6,6 +6,7 @@
   width: 100%;
   background-color: #f5f5fa;
   padding: 10px 15px;
+  justify-content: space-between;
 }
 .form-languages {
   font-size: 12px;
@@ -194,16 +195,9 @@
 /* md-устройства (больше или равно 768px) */
 @media (min-width: 768px) {
   /* CSS для: 768px <= ширины <= 991px */
-  .container {
-    width: 100%;
-    max-width: calc(768px + 60px);
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
+
   .header .wrapper {
-    padding: 50px 0 0 0;
+    padding: 50px 0 60px 0;
   }
   .up-header {
     background-color: #ffffff;
@@ -296,17 +290,8 @@
 /* lg-устройства (больше или равно 992px) */
 @media (min-width: 1024px) {
   /* CSS для: 992px <= ширины <= 1119px */
-  .container {
-    width: 100%;
-    max-width: calc(1024px + 120px);
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
 
   .header .wrapper {
-    padding: 50px 0 0 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -334,28 +319,9 @@
 /* xl-устройства (больше или равно 1200px) */
 @media (min-width: 1440px) {
   /* CSS для: ширины >= 1200px */
-  .container {
-    width: 100%;
-    max-width: calc(1320px + 120px);
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .header .wrapper {
-    padding: 50px 0 0 0;
-  }
 }
 
 /* xxl-устройства (больше или равно 1600px) */
 @media (min-width: 1920px) {
   /* CSS для: ширины >= 1200px */
-  .container {
-    width: 100%;
-    max-width: calc(1600px + 320px);
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 160px;
-    padding-right: 160px;
-  }
 }
